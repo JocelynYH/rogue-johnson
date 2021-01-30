@@ -1,0 +1,99 @@
+body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Codystar': thin;
+	width: 100%;
+	padding: 0;
+	background-color: black;
+	z-index: -1;
+	display: block;
+}
+
+
+/*********************************
+			Nav Bar
+**********************************/
+ul{
+	list-style: none;
+	display: inline-block;
+}
+
+li {
+	text-decoration: none;
+	color: white;
+	display: inline;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	font-family: 'Codystar', cursive;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 10px 10px 10px 10px;
+	color: #EAD6D6;
+
+}
+
+.navbar {
+	background: black;
+	position: fixed;
+	width: 100%;
+	padding: 15px 20px;
+	display: block;
+}
+
+.navbar-logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+
+.navbar-logo img {
+	width:100%;
+	background-size: cover;
+}
+
+.navbar-buttons {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	width: 60%;
+	background-size: cover;
+
+}
+
+.navbar a:hover {
+	color: #C77028;
+}
+
+
+.header {
+	font-size: 50px;
+	margin: 0;
+	padding-top: 10%;
+	padding-bottom: 0%;
+	text-align: center;
+	width: 100%;
+	color: black;
+	background-color: white;
+	display: inline-block;
+	font-family: 'codystar';
+}
+
+/*********************************
+			Contact
+**********************************/
+
+#contact {
+	color: #EAD6D6;
+	font-family: 'codystar';
+	text-align: center;
+	background: black;
+	padding: 60px
+}
+
+

@@ -1,0 +1,211 @@
+
+body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Codystar': thin;
+	width: 100%;
+	padding: 0;
+	background-color: black;
+	z-index: -1;
+	display: block;
+}
+
+
+
+.everything {
+	width: 100%;
+	min-height: 1200px;
+	background-color: black;
+	margin-right: 0;
+	margin-right: 0;
+}
+
+/*********************************
+			Nav Bar
+**********************************/
+ul{
+	list-style: none;
+	display: inline-block;
+}
+
+li {
+	text-decoration: none;
+	color: white;
+	display: inline;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	font-family: 'Codystar', cursive;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 10px 10px 10px 10px;
+	color: #EAD6D6;
+
+}
+
+.navbar {
+	background: black;
+	position: fixed;
+	width: 100%;
+	padding: 15px 20px;
+	display: block;
+}
+
+.navbar-logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+
+.navbar-logo img {
+	width:100%;
+	background-size: cover;
+}
+
+.navbar-buttons {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	width: 60%;
+	background-size: cover;
+
+}
+
+.navbar a:hover {
+	color: #C77028;
+}
+
+
+.header {
+	font-size: 50px;
+	margin: 0;
+	padding-top: 10%;
+	padding-bottom: 0%;
+	text-align: center;
+	width: 100%;
+	color: black;
+	background-color: white;
+	display: inline-block;
+	font-family: 'codystar';
+}
+
+.three {
+	margin-top: 8%;
+	width: 60%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.quote {
+	margin-top: 5%;
+	display: inline-block;
+	text-align: center;
+	text-decoration-color: white;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+}
+
+.love {
+	font-family: 'Satisfy', cursive;
+	font-size: 40px;
+	text-decoration-color: white;
+	color: white;
+}
+
+.pic {
+	vertical-align: top;
+	margin-top: 0;
+	display: inline-block;
+	width: 30%;
+	margin-left: 13%;
+}
+
+.basic {
+	margin-top: 2%;
+	margin-left: 5%;
+	width: 40%;
+	display: inline-block;
+	text-decoration-color: white;
+	color: white;
+	text-align: center;
+}
+
+.name {
+	font-size: 30px;
+}
+
+.craft {
+	display: inline-block;
+	color: white;
+	width: 100%;
+}
+
+
+.biog {
+	margin-top: 7%;
+	margin-left: 10%;
+	display: inline-block;
+	width: 40%;
+	text-decoration-color: white;
+	color: white;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.pic2 {
+	vertical-align: top;
+	margin-top: 10%;
+	width: 40%;
+	display: inline-block;
+	margin-left: 2%;
+}
+
+.band1 {
+	width: 90%;
+}
+
+.others {
+
+	
+}
+
+.others p {
+	color: white;
+	margin-top: 3%;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.others h2 {
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+.quo1 {
+	width: 80%;
+	text-align: center;
+}
+
+.quo2 {
+	width: 75%;
+	text-align: center;
+	margin-right: 0;
+}
+
+
+
+
+
+

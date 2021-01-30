@@ -1,0 +1,132 @@
+body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Codystar': thin;
+}
+
+.everything {
+	width: 100%;
+	min-height: 1200px;
+	background-color: black;
+	margin-right: 0;
+	margin-right: 0;
+}
+
+
+
+.header {
+	font-size: 50px;
+	margin-top: 0;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	text-align: center;
+	width: 100%;
+	color: black;
+	background-color: white;
+	display: inline-block;
+}
+
+.three {
+	margin-top: 8%;
+	width: 60%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.quote {
+	margin-top: 5%;
+	display: inline-block;
+	text-align: center;
+	text-decoration-color: white;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+}
+
+.love {
+	text-decoration-color: white;
+	color: white;
+}
+
+.pic {
+	vertical-align: top;
+	margin-top: 0;
+	display: inline-block;
+	width: 30%;
+	margin-left: 13%;
+}
+
+.basic {
+	margin-top: 2%;
+	margin-left: 5%;
+	width: 40%;
+	display: inline-block;
+	text-decoration-color: white;
+	color: white;
+	text-align: center;
+}
+
+.name {
+	font-size: 30px;
+}
+
+.craft {
+	display: inline-block;
+	color: white;
+	width: 100%;
+}
+
+
+.biog {
+	margin-top: 7%;
+	margin-left: 10%;
+	display: inline-block;
+	width: 40%;
+	text-decoration-color: white;
+	color: white;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.pic2 {
+	vertical-align: top;
+	margin-top: 10%;
+	width: 40%;
+	display: inline-block;
+	margin-left: 2%;
+}
+
+.band1 {
+	width: 90%;
+}
+
+.others {
+	
+}
+
+.others p {
+	width: 70%;
+	text-align: center;
+	color: white;
+	margin-left: 15%;
+	margin-top: 3%;
+	margin-right: 15%;
+	margin-bottom: 0;
+}
+
+.others h2 {
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+

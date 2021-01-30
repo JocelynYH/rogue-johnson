@@ -1,0 +1,285 @@
+body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Codystar': thin;
+	width: 100%;
+	padding: 0;
+	background-color: black;
+	z-index: -1;
+	display: block;
+}
+
+
+
+.everything {
+	width: 100%;
+	min-height: 1200px;
+	background-color: black;
+	margin-right: 0;
+	margin-right: 0;
+}
+
+/*********************************
+			Nav Bar
+**********************************/
+ul{
+	list-style: none;
+	display: inline-block;
+}
+
+li {
+	text-decoration: none;
+	color: white;
+	display: inline;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	font-family: 'Codystar', cursive;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 10px 10px 10px 10px;
+	color: #EAD6D6;
+
+}
+
+.navbar {
+	background: black;
+	position: fixed;
+	width: 100%;
+	padding: 15px 20px;
+	display: block;
+}
+
+.navbar-logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+
+.navbar-logo img {
+	width:100%;
+	background-size: cover;
+}
+
+.navbar-buttons {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	width: 60%;
+	background-size: cover;
+
+}
+
+.navbar a:hover {
+	color: #C77028;
+}
+
+
+.header {
+	font-size: 50px;
+	margin: 0;
+	padding-top: 10%;
+	padding-bottom: 0%;
+	text-align: center;
+	width: 100%;
+	color: black;
+	background-color: white;
+	display: inline-block;
+	font-family: 'codystar';
+}
+
+
+
+.pur {
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-size: 55px;
+}
+
+
+.head1 {
+	margin-top: 0;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 4%;
+}
+
+
+.head2 {
+	text-align: center;
+	margin-top: 0;
+	color: white;
+	font-size: 20px;
+}
+
+
+.albums {
+	display: block;
+	width: 100%;
+	vertical-align: top;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+.albums img {
+	width: 75%;
+	display: inline-block;
+	height: auto;	
+}
+
+.album1{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+.album2 {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.direct {
+	margin-top: 2%;
+	color: white;
+	text-align: center;
+}
+
+.part2 {
+	margin-top: 0;
+	width: 100%;
+	background-color: white;
+	background-size: cover;
+	height: 800px;
+}
+
+.list {
+	text-align: center;
+	height: auto;
+	color: black;
+	width: 100%;
+	font-size: 55px;
+	background-color: white;
+	margin-top: 5%;
+	padding-top: 5%;
+}
+
+.firstvid {
+	margin-top: 0;
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+}
+
+.you1 {
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding-bottom: 50%; /* 16:9 */
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-right: 0;
+	margin-top: 3%;
+	display: inline-block;
+}
+
+iframe {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding-bottom: 0;
+	height: 550px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 2px;
+	border-color: white;
+	border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    display: inline-block;
+
+}
+
+.secondvid {
+	width: 40%;
+	display: inline-block;
+}
+
+
+.you2 {
+	width: 100%;
+	position: relative;
+	padding-bottom: 50%; /* 16:9 */
+	margin-right: 0;
+	padding-right: 0;
+	margin-top: 3%;
+	display: inline-block;
+	margin-left: 30%;
+}
+
+
+
+
+.findme {
+	width: 100%;
+	height: auto;
+	background-color: black;
+	background-size: cover;
+}
+
+.follow {
+	text-align: center;
+	height: auto;
+	color: white;
+	width: 100%;
+	font-size: 55px;
+	margin-top: 2%;
+	padding-top: 5%;
+
+}
+
+.links {
+	width: 65%;
+	margin-right: 17%;
+	margin-left: 17%;
+	text-align: center;
+	background-color: black;
+	background-size: cover;
+	padding-bottom: 10%;
+}
+
+.links a {
+	text-align: center;
+	margin-top: 0%;
+	width: 100%;
+	margin-left: 5%;
+}
+
+.soundcloud {
+	margin-bottom: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+

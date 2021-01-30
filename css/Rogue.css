@@ -1,0 +1,105 @@
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: black;
+	z-index: -1;
+	display: block;
+}
+
+
+.home {
+	width: 100%;
+	height: auto;
+}
+ul{
+	list-style: none;
+	display: inline;
+}
+
+li {
+	text-decoration: none;
+	color: white;
+	display: inline;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	font-family: 'Codystar', cursive;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 10px 10px 10px 10px;
+	color: #EAD6D6;
+
+}
+
+.navbar {
+	background: black;
+	position: fixed;
+	width: 100%;
+	padding: 15px 20px;
+	display: block;
+}
+
+.navbar-logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+
+.navbar-logo img {
+	width:100%;
+	background-size: cover;
+}
+
+.navbar-buttons {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	width: 60%;
+	background-size: cover;
+
+}
+
+.navbar a:hover {
+	color: #C77028;
+}
+
+.section1 {
+	padding-top:100px;
+	height:800px;
+	background-image: url('images/Epicure.jpg');
+	background-size: cover;
+	color:red;
+	display: block;
+
+}
+
+.section1 img {
+	background-size: cover;
+	display: block;
+}
+
+.section2 {
+	background-image: url('images/tides5.jpg');
+	display: block;
+	background-color: black;
+	text-align: center;
+	padding: 20px ;
+}
+
+/**.section1 {
+	background-image: url("images/Epicure.jpg");
+	background-position: center center;
+	height: auto;
+	background-size: cover;
+	width: 1150px;
+}
+
+
+/**border: 1px solid white;*//

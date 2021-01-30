@@ -1,0 +1,171 @@
+body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Courier;
+}
+
+.everything {
+	width: 100%;
+	min-height: 100%;
+	background-color: black;
+	background-size: cover;
+	margin-right: 0;
+	margin-right: 0;
+}
+
+
+
+.header {
+	font-size: 50px;
+	margin-top: 0;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	text-align: center;
+	width: 100%;
+	color: black;
+	background-color: white;
+
+}
+
+
+.firstvid {
+	margin-top: 10%;
+}
+
+.head1 {
+	width: 100%;
+	margin-left: 0;
+	margin-top: 0;
+	text-align: center;
+	color: white;
+}
+
+
+
+
+.you1 {
+	width: 85%;
+	position: relative;
+	padding-bottom: 50%; /* 16:9 */
+	margin-left: 15%;
+	margin-right: 0;
+	padding-right: 0;
+	margin-top: 3%;
+}
+
+iframe {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding-bottom: 0;
+	width: 80%;
+	height: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 2px;
+	border-color: white;
+	border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+
+}
+
+.head2 {
+	text-align: center;
+	color: white;
+}
+
+
+
+.you2 {
+	width: 85%;
+	position: relative;
+	padding-bottom: 50%; /* 16:9 */
+	margin-left: 15%;
+	margin-right: 0;
+	padding-right: 0;
+	margin-top: 3%;
+}
+
+
+.head3 {
+	text-align: center;
+	color: white;
+}
+
+
+
+.you3 {
+	width: 85%;
+	position: relative;
+	padding-bottom: 50%; /* 16:9 */
+	margin-left: 15%;
+	margin-right: 0;
+	padding-right: 0;
+	margin-top: 3%;
+}
+
+
+.head4 {
+	text-align: center;
+	color: white;
+}
+
+
+
+.you4 {
+	width: 85%;
+	position: relative;
+	padding-bottom: 50%; /* 16:9 */
+	margin-left: 15%;
+	margin-right: 0;
+	padding-right: 0;
+	margin-top: 3%;
+}
+
+
+.head5 {
+	text-align: center;
+	color: white;
+}
+
+
+
+.you5 {
+	width: 85%;
+	position: relative;
+	padding-bottom: 50%; /* 16:9 */
+	margin-left: 15%;
+	margin-right: 0;
+	padding-right: 0;
+	margin-top: 3%;
+}
+
+.head6 {
+	text-align: center;
+	color: white;
+}
+
+
+
+.you6 {
+	width: 85%;
+	position: relative;
+	padding-bottom: 50%; /* 16:9 */
+	margin-left: 15%;
+	margin-right: 0;
+	padding-right: 0;
+	margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
