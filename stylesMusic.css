@@ -137,13 +137,15 @@ a {
 	height: auto;
 }
 
+.albums .album2 img {
+	width: 65%;
+}
+
 .album1 {
 	width: 45%;
 	display: inline-block;
 	vertical-align: top;
 }
-
-
 
 .album2 {
 	width: 45%;
@@ -249,7 +251,7 @@ iframe {
 	color: white;
 	width: 100%;
 	font-size: 55px;
-	margin-top: 2%;
+	margin-top: 4%;
 	padding-top: 5%;
 
 }
@@ -269,9 +271,9 @@ iframe {
 	margin-top: 0%;
 	width: 100%;
 	margin-left: 5%;
+	vertical-align: middle;
 }
 
 .soundcloud {
 	margin-bottom: 0;
-
 }
