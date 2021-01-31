@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Codystar|Raleway|Raleway+Dots" rel="stylesheet">
 	<meta charset="UTF-8" />
@@ -6,49 +7,52 @@
 	<link rel='stylesheet' href='Rogue2.css' type='text/css' />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 </head>
+
 <body>
 
 
-<!--*****************************
+	<!--*****************************
 			Nav Bar
 	*****************************-->
-<div class="navbar">
-	<div class="navbar-logo">
-		<img src="images/RogueName.png">
-	</div><div class="navbar-buttons">
-		<ul class="navbar-buttons-links">
-				<li class="navbar-home"><a class="barbutton" href="rogue2.html">HOME</a></li>
+	<div class="navbar">
+		<div class="navbar-logo">
+			<img src="images/RogueName.png">
+		</div>
+		<div class="navbar-buttons">
+			<ul class="navbar-buttons-links">
+				<li class="navbar-home"><a class="barbutton" href="index.html">HOME</a></li>
 				<li class="navbar-about"><a class="barbutton" href="indexAbout.html">ABOUT</a></li>
 				<li class="navbar-events"><a class="barbutton" href="Events.html">UPCOMING</a></li>
 				<li class="navbar-music"><a class="barbutton" href="indexMusic.html">MUSIC</a></li>
 				<li class="navbar-music"><a class="barbutton" href="indexMedia.html">MEDIA</a></li>
 				<li class="navbar-gigs"><a class="barbutton" href="Gigs.html">GIGS</a></li>
 				<li class="navbar-contact"><a class="barbutton" href="Contact.html">CONTACT</a></li>
-		</ul>
+			</ul>
+		</div>
 	</div>
-</div>
 
-<!--*****************************
+	<!--*****************************
 			Picture
 	*****************************-->
 
-<div id="picture">
-</div>
-<!--*****************************
+	<div id="picture">
+	</div>
+	<!--*****************************
 			
-	*****************************-->	
+	*****************************-->
 
-<div id="quote1">
-	<h1>"Cathouse piano and a roadhouse voice"</h1>
-	<h2>-Deseret News</h2>
-	<button class="button" type="button" value="Listen Now" onclick="window.location.href='gigs.html';")" font-face= 'codystar'>Listen Now</button>
-</div>
+	<div id="quote1">
+		<h1>"Cathouse piano and a roadhouse voice"</h1>
+		<h2>-Deseret News</h2>
+		<button class="button" type="button" value="Listen Now" onclick="window.location.href='gigs.html';" )"
+			font-face='codystar'>Listen Now</button>
+	</div>
 
 
-<!--*****************************
+	<!--*****************************
 			About
 	*****************************-->
-<!--<div class="everything">
+	<!--<div class="everything">
 	<div class="header">
 		<h2>ABOUT</h2>
 		<h6 class="three">Keyboardist | Singer | Songwriter</h6>
@@ -88,30 +92,31 @@
 
 </div>-->
 
-	
-<!--*****************************
+
+	<!--*****************************
 			Footer
 	*****************************-->
-    <footer>
-        <iframe width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/309373400&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-   </footer>
-<script>
-var mywindow = $(window);
-var mypos = mywindow.scrollTop();
-var up = false;
-var newscroll;
-mywindow.scroll(function () {
-    newscroll = mywindow.scrollTop();
-    if (newscroll > mypos && !up) {
-        $('footer').stop().slideToggle();
-        up = !up;
-        console.log(up);
-    } else if(newscroll < mypos && up) {
-        $('footer').stop().slideToggle();
-        up = !up;
-    }
-    mypos = newscroll;
-});
-</script>
+	<footer>
+		<iframe width="100%" height="200" scrolling="no" frameborder="no"
+			src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/309373400&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+	</footer>
+	<script>
+		var mywindow = $(window);
+		var mypos = mywindow.scrollTop();
+		var up = false;
+		var newscroll;
+		mywindow.scroll(function () {
+			newscroll = mywindow.scrollTop();
+			if (newscroll > mypos && !up) {
+				$('footer').stop().slideToggle();
+				up = !up;
+				console.log(up);
+			} else if (newscroll < mypos && up) {
+				$('footer').stop().slideToggle();
+				up = !up;
+			}
+			mypos = newscroll;
+		});
+	</script>
 
 </body>
