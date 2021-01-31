@@ -97,29 +97,28 @@ a {
 	font-family: 'codystar';
 }
 
+.header img {
+	width: 20%;
+}
+
 .three {
-	margin-top: 8%;
+	margin-top: 4%;
 	width: 60%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 
 .quote {
-	margin-top: 5%;
 	display: inline-block;
 	text-align: center;
 	text-decoration-color: white;
 	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-bottom: 5%;
+	margin: 15% 15%;
 }
 
 .love {
-	/* font-family: 'Satisfy', cursive; */
 	font-family: 'Raleway';
 	font-weight: 100;
 	font-size: 40px;
@@ -142,7 +141,7 @@ a {
 	line-height: 1.5rem;
 	text-decoration-color: white;
 	color: white;
-	text-align: center;
+	text-align: left;
 	display: inline-block;
 	width: 54%;
 }
@@ -160,8 +159,8 @@ a {
 
 .biog {
 	margin-top: 13%;
-	margin-left: 10%;
 	margin-bottom: 5%;
+	width: 48%;
 }
 
 .info {
@@ -171,6 +170,7 @@ a {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	align-items: center;
 }
 
 .pic2 {
