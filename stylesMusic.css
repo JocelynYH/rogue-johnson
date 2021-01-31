@@ -2,7 +2,8 @@ body {
 	min-height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Codystar': thin;
+	font-family: 'Codystar';
+	font-weight: thin;
 	width: 100%;
 	padding: 0;
 	background-color: black;
@@ -23,7 +24,7 @@ body {
 /*********************************
 			Nav Bar
 **********************************/
-ul{
+ul {
 	list-style: none;
 	display: inline-block;
 }
@@ -38,7 +39,7 @@ li {
 a {
 	text-decoration: none;
 	color: white;
-	font-weight:bold;
+	font-weight: bold;
 	font-family: 'Codystar', cursive;
 	font-size: 20px;
 	letter-spacing: 1px;
@@ -62,7 +63,7 @@ a {
 }
 
 .navbar-logo img {
-	width:100%;
+	width: 100%;
 	background-size: cover;
 }
 
@@ -70,7 +71,7 @@ a {
 	display: inline-block;
 	vertical-align: middle;
 	text-align: left;
-	width: 60%;
+	width: 59%;
 	background-size: cover;
 
 }
@@ -133,10 +134,10 @@ a {
 .albums img {
 	width: 75%;
 	display: inline-block;
-	height: auto;	
+	height: auto;
 }
 
-.album1{
+.album1 {
 	width: 45%;
 	display: inline-block;
 	vertical-align: top;
@@ -186,7 +187,8 @@ a {
 	width: 100%;
 	height: auto;
 	position: relative;
-	padding-bottom: 50%; /* 16:9 */
+	padding-bottom: 50%;
+	/* 16:9 */
 	margin-left: 15%;
 	margin-right: 15%;
 	padding-right: 0;
@@ -206,10 +208,10 @@ iframe {
 	border-width: 2px;
 	border-color: white;
 	border-top-style: dotted;
-    border-right-style: solid;
-    border-bottom-style: dotted;
-    border-left-style: solid;
-    display: inline-block;
+	border-right-style: solid;
+	border-bottom-style: dotted;
+	border-left-style: solid;
+	display: inline-block;
 
 }
 
@@ -222,7 +224,8 @@ iframe {
 .you2 {
 	width: 100%;
 	position: relative;
-	padding-bottom: 50%; /* 16:9 */
+	padding-bottom: 50%;
+	/* 16:9 */
 	margin-right: 0;
 	padding-right: 0;
 	margin-top: 3%;
@@ -272,14 +275,3 @@ iframe {
 	margin-bottom: 0;
 
 }
-
-
-
-
-
-
-
-
-
-
-
